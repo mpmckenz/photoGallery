@@ -1,0 +1,58 @@
+body {
+    background-color: lightslategray;
+}
+
+#headerDiv {
+    font-size: 5vw;
+    text-align: center;
+    position: relative;
+    border: 3px solid black;
+    border-radius: 20%;
+    background-color: darkgray;
+}
+
+#photoDiv {
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+#photoContainer {
+    columns: 3;
+}
+
+img {
+    border: 5px solid black;
+    border-radius: 10%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#photoHeightTallest {
+    height: 30vh;
+}
+
+#photoHeightMedium {
+    height: 20vh;
+}
+
+#photoHeightSmallest {
+    height: 15vh;
+}
+
+@media (min-width: 200px) {
+    #photoContainer {
+        columns: 1;
+    }
+}
+@media (min-width: 450px) {
+    #photoContainer {
+        columns: 2;
+    }
+}
+@media (min-width: 740px) {
+    #photoContainer {
+        columns: 3;
+    }
+}
