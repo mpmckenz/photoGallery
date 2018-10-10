@@ -16,10 +16,6 @@ body {
     padding-bottom: 1%;
 }
 
-#photoContainer {
-    columns: 3;
-}
-
 img {
     border: 5px solid black;
     border-radius: 10%;
@@ -41,18 +37,15 @@ img {
     height: 15vh;
 }
 
-@media (min-width: 200px) {
-    #photoContainer {
-        columns: 1;
-    }
-}
-@media (min-width: 450px) {
+@media (min-width: 540px) {
     #photoContainer {
         columns: 2;
     }
+
 }
-@media (min-width: 740px) {
+@media (min-width: 830px) {
     #photoContainer {
         columns: 3;
     }
+
 }
